@@ -1,0 +1,68 @@
+##twitter = "@alissonjo2786"
+##
+##print len(twitter)
+##
+##phone = "315-245-8967"
+##
+##print phone
+##name="Alison"
+##age="30"
+##Print "My name is:{0} and my age is {1}".format(name, age)
+
+##phone= "202-555-67-89"
+##print "call {0}for great pizza".format(phone[4:])
+
+#phone="(202)-555-9876"
+#print "area code {0}".format(phone[0:3])
+#print "local {0}".format(phone[4:])
+#print "area code {0}".format(phone[1:4])
+#print "local{0}".format(phone[6:])
+# allows to print a different format print "different format: ({0})-{1}-{2}".format(phone [0:3], phone[4:7], phone [8:])
+#email ="alisonjo2786@gmail.com"
+#print email.find("@")index of where it found the thing
+##at_sign_location=email.find("@")
+##print at_sign_location
+#-1 not found
+
+#print email.find("z")
+
+#print email.find("a")
+
+#.replace("@"- what it is looking for, "#"- what it is going to replace it with)
+# name error means that there is no definition exisiting in this session
+#conditionals can help you change the behavior of your program
+##
+##gender = "f"
+##if gender == "f":
+##   print "Welcome to Code Like Girl!"
+
+    #= setting the value
+    #==equals to value, equality operator 
+
+##if gender.lower() =="f":
+##    print "Welcome to Code Like Girl"
+##
+##
+##students
+##if students < capacity:
+##    print "keep recruiting"
+
+volunteers=105
+goal=100
+##if volunteers < goal:
+##    print "you're behind"
+##else:
+##    print "need to recruit more"
+##
+##
+##if volunteers==goal:
+##    print "good job"
+##elif volunteers < goal:
+##    print "you're behind"
+##elif volunteers >=goal: 
+##    print "we met and exceeded the goal"
+##
+if volunteers==goal:
+    print "good job"
+elif volunteers > goal:
+    print "you've exceeded goal by {0}".format(volunteers - goal) 
